@@ -1,0 +1,206 @@
+{
+    "person": {
+        "pid": 2,
+        "order": 1,
+        "name": "User 2",
+        "gender": "Male",
+        "age": 23,
+        "email": "user2@example.com",
+        "level": "Master",
+        "major": "Computer science and enginnering",
+        "familiarWithVIS": false,
+        "familiarWithDB": true,
+        "familiarWithQO": true
+    },
+    "answers": [
+        {
+            "questionId": 0,
+            "task": 1,
+            "caseName": "bug4-0",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711193518451,
+            "endTime": 1711194096828,
+            "selectionList": [
+                1
+            ],
+            "selReasonList": [
+                "There is not broadcast hint in the analyzed plan."
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                578377
+            ]
+        },
+        {
+            "questionId": 5,
+            "task": 1,
+            "caseName": "ssb-q1",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711194100561,
+            "endTime": 1711194741517,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "I have not found any issues."
+            ],
+            "confidenceList": [
+                4
+            ],
+            "timeList": [
+                640956
+            ]
+        },
+        {
+            "questionId": 7,
+            "task": 1,
+            "caseName": "bug1-0",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711194744482,
+            "endTime": 1711194996850,
+            "selectionList": [
+                2
+            ],
+            "selReasonList": [
+                "The join operator omitted."
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                252368
+            ]
+        },
+        {
+            "questionId": 9,
+            "task": 1,
+            "caseName": "ssb-q11",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711194998198,
+            "endTime": 1711195323776,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "I have not found any issue."
+            ],
+            "confidenceList": [
+                4
+            ],
+            "timeList": [
+                325578
+            ]
+        },
+        {
+            "questionId": 14,
+            "task": 1,
+            "caseName": "bug0-0",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711195325107,
+            "endTime": 1711195730499,
+            "selectionList": [
+                3
+            ],
+            "selReasonList": [
+                "I found repeated optimization steps. "
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                405392
+            ]
+        },
+        {
+            "questionId": 16,
+            "task": 1,
+            "caseName": "bug4-1",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711195731741,
+            "endTime": 1711195923679,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "I found no issue."
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                191938
+            ]
+        },
+        {
+            "questionId": 18,
+            "task": 2,
+            "caseName": "bug4-0",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711195927133,
+            "endTime": 1711196106645,
+            "selectionList": [
+                3
+            ],
+            "selReasonList": [
+                "There is no resolved-hint node in the plan generated in the analyze stage. "
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                179512
+            ]
+        },
+        {
+            "questionId": 22,
+            "task": 2,
+            "caseName": "bug1-0",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711196108039,
+            "endTime": 1711196493834,
+            "selectionList": [
+                2
+            ],
+            "selReasonList": [
+                "This step rewrote incorrectly the join predicates."
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                385795
+            ]
+        },
+        {
+            "questionId": 26,
+            "task": 2,
+            "caseName": "bug0-0",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711196495172,
+            "endTime": 1711196793806,
+            "selectionList": [
+                1
+            ],
+            "selReasonList": [
+                "I have found this fact."
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                298634
+            ]
+        }
+    ]
+}

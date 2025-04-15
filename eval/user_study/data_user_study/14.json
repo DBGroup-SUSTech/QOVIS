@@ -1,0 +1,218 @@
+{
+    "person": {
+        "pid": 14,
+        "order": 13,
+        "name": "User 14",
+        "gender": "Male",
+        "age": 22,
+        "email": "user14@example.com",
+        "level": "Undergraduate",
+        "major": "Computer Science",
+        "familiarWithVIS": true,
+        "familiarWithDB": false,
+        "familiarWithQO": false
+    },
+    "answers": [
+        {
+            "questionId": 0,
+            "task": 1,
+            "caseName": "bug4-0",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711264591621,
+            "endTime": 1711265024097,
+            "selectionList": [
+                1
+            ],
+            "selReasonList": [
+                "I didn't find the ResolvedHint node in Analysis phase in the visualization system."
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                432476
+            ]
+        },
+        {
+            "questionId": 5,
+            "task": 1,
+            "caseName": "ssb-q1",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711265030000,
+            "endTime": 1711265959969,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "D - no repeat operator\nC - The join condition is correct"
+            ],
+            "confidenceList": [
+                4
+            ],
+            "timeList": [
+                929969
+            ]
+        },
+        {
+            "questionId": 7,
+            "task": 1,
+            "caseName": "bug1-0",
+            "method": "qvm",
+            "answerCount": 2,
+            "startTime": 1711265962926,
+            "endTime": 1711266873518,
+            "selectionList": [
+                0,
+                2
+            ],
+            "selReasonList": [
+                "both plans are correct ",
+                "join operator is deleted"
+            ],
+            "confidenceList": [
+                4,
+                3
+            ],
+            "timeList": [
+                701849,
+                208743
+            ]
+        },
+        {
+            "questionId": 9,
+            "task": 1,
+            "caseName": "ssb-q11",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711266876198,
+            "endTime": 1711267128661,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "B - five tables are joined\nC - all inner join nodes are connected with the filter node\nD - Reorder Join is conducted once"
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                252463
+            ]
+        },
+        {
+            "questionId": 14,
+            "task": 1,
+            "caseName": "bug0-0",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711267129710,
+            "endTime": 1711267502161,
+            "selectionList": [
+                3
+            ],
+            "selReasonList": [
+                "part of the results in the log file during optimization are the same"
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                372451
+            ]
+        },
+        {
+            "questionId": 16,
+            "task": 1,
+            "caseName": "bug4-1",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711267503508,
+            "endTime": 1711267775178,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "A - the hint is resolved and the table is t\nB - the optimized query is correct\nC - left join is set at the start of optimization"
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                271670
+            ]
+        },
+        {
+            "questionId": 18,
+            "task": 2,
+            "caseName": "bug4-0",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711267776308,
+            "endTime": 1711267976637,
+            "selectionList": [
+                3
+            ],
+            "selReasonList": [
+                "there is no hint node after this step"
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                200329
+            ]
+        },
+        {
+            "questionId": 22,
+            "task": 2,
+            "caseName": "bug1-0",
+            "method": "qvm",
+            "answerCount": 3,
+            "startTime": 1711267977736,
+            "endTime": 1711268409424,
+            "selectionList": [
+                3,
+                0,
+                2
+            ],
+            "selReasonList": [
+                "the join condition is correct until the last step and the right sub-tree is removed by the last step",
+                "the join condition is rewritten in this step",
+                "the join condition is rewritten in this step"
+            ],
+            "confidenceList": [
+                5,
+                5,
+                5
+            ],
+            "timeList": [
+                265966,
+                146125,
+                19597
+            ]
+        },
+        {
+            "questionId": 26,
+            "task": 2,
+            "caseName": "bug0-0",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711268410708,
+            "endTime": 1711268596741,
+            "selectionList": [
+                1
+            ],
+            "selReasonList": [
+                "project #18 is generated and removed again and again"
+            ],
+            "confidenceList": [
+                4
+            ],
+            "timeList": [
+                186033
+            ]
+        }
+    ]
+}

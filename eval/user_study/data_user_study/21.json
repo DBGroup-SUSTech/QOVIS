@@ -1,0 +1,234 @@
+{
+    "person": {
+        "pid": 21,
+        "order": 20,
+        "name": "User 21",
+        "gender": "Male",
+        "age": 21,
+        "email": "user21@example.com",
+        "level": "Undergraduate",
+        "major": "vector database",
+        "familiarWithVIS": false,
+        "familiarWithDB": true,
+        "familiarWithQO": false
+    },
+    "answers": [
+        {
+            "questionId": 1,
+            "task": 1,
+            "caseName": "bug4-0",
+            "method": "qvm",
+            "answerCount": 2,
+            "startTime": 1711262767774,
+            "endTime": 1711263747812,
+            "selectionList": [
+                0,
+                1
+            ],
+            "selReasonList": [
+                "None",
+                "broadcast missed"
+            ],
+            "confidenceList": [
+                2,
+                2
+            ],
+            "timeList": [
+                885651,
+                94387
+            ]
+        },
+        {
+            "questionId": 3,
+            "task": 1,
+            "caseName": "ssb-q1",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711263750236,
+            "endTime": 1711264238453,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "None"
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                488217
+            ]
+        },
+        {
+            "questionId": 8,
+            "task": 1,
+            "caseName": "bug1-0",
+            "method": "nm",
+            "answerCount": 2,
+            "startTime": 1711264239852,
+            "endTime": 1711264974438,
+            "selectionList": [
+                1,
+                2
+            ],
+            "selReasonList": [
+                "left anti join change to exist",
+                "B is wrong\n"
+            ],
+            "confidenceList": [
+                3,
+                3
+            ],
+            "timeList": [
+                573275,
+                161309
+            ]
+        },
+        {
+            "questionId": 10,
+            "task": 1,
+            "caseName": "ssb-q11",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711264976107,
+            "endTime": 1711265399533,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "None"
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                423426
+            ]
+        },
+        {
+            "questionId": 12,
+            "task": 1,
+            "caseName": "bug0-0",
+            "method": "qv",
+            "answerCount": 4,
+            "startTime": 1711265401052,
+            "endTime": 1711265918483,
+            "selectionList": [
+                1,
+                0,
+                2,
+                3
+            ],
+            "selReasonList": [
+                "Filter id isnotnull added but no reason",
+                "None",
+                "extract generated",
+                "LeftAntiJoin and Project didn't change"
+            ],
+            "confidenceList": [
+                3,
+                3,
+                3,
+                3
+            ],
+            "timeList": [
+                280093,
+                98270,
+                107654,
+                31414
+            ]
+        },
+        {
+            "questionId": 17,
+            "task": 1,
+            "caseName": "bug4-1",
+            "method": "nm",
+            "answerCount": 2,
+            "startTime": 1711265920140,
+            "endTime": 1711266545593,
+            "selectionList": [
+                2,
+                0
+            ],
+            "selReasonList": [
+                "missed t_col#4 = s_col#10",
+                "None"
+            ],
+            "confidenceList": [
+                1,
+                1
+            ],
+            "timeList": [
+                588703,
+                36747
+            ]
+        },
+        {
+            "questionId": 19,
+            "task": 2,
+            "caseName": "bug4-0",
+            "method": "qvm",
+            "answerCount": 2,
+            "startTime": 1711266546876,
+            "endTime": 1711266854249,
+            "selectionList": [
+                0,
+                3
+            ],
+            "selReasonList": [
+                "broadcaset is under exists",
+                "Missing in analysis phase"
+            ],
+            "confidenceList": [
+                3,
+                3
+            ],
+            "timeList": [
+                222573,
+                84800
+            ]
+        },
+        {
+            "questionId": 23,
+            "task": 2,
+            "caseName": "bug1-0",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711266855292,
+            "endTime": 1711267410375,
+            "selectionList": [
+                2
+            ],
+            "selReasonList": [
+                "Only it change id#6 = id#4"
+            ],
+            "confidenceList": [
+                2
+            ],
+            "timeList": [
+                555083
+            ]
+        },
+        {
+            "questionId": 24,
+            "task": 2,
+            "caseName": "bug0-0",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711267411718,
+            "endTime": 1711267685851,
+            "selectionList": [
+                1
+            ],
+            "selReasonList": [
+                "2 project"
+            ],
+            "confidenceList": [
+                2
+            ],
+            "timeList": [
+                274133
+            ]
+        }
+    ]
+}

@@ -1,0 +1,226 @@
+{
+    "person": {
+        "pid": 18,
+        "order": 17,
+        "name": "User 18",
+        "gender": "Male",
+        "age": 19,
+        "email": "user18@example.com",
+        "level": "Undergraduate",
+        "major": "Cloud Native (?)",
+        "familiarWithVIS": false,
+        "familiarWithDB": false,
+        "familiarWithQO": false
+    },
+    "answers": [
+        {
+            "questionId": 2,
+            "task": 1,
+            "caseName": "bug4-0",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711263764613,
+            "endTime": 1711264040093,
+            "selectionList": [
+                1
+            ],
+            "selReasonList": [
+                "No resolved hint in the log."
+            ],
+            "confidenceList": [
+                2
+            ],
+            "timeList": [
+                275479
+            ]
+        },
+        {
+            "questionId": 4,
+            "task": 1,
+            "caseName": "ssb-q1",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711264043890,
+            "endTime": 1711264804965,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "No error was found."
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                761075
+            ]
+        },
+        {
+            "questionId": 6,
+            "task": 1,
+            "caseName": "bug1-0",
+            "method": "qv",
+            "answerCount": 2,
+            "startTime": 1711264806394,
+            "endTime": 1711265219346,
+            "selectionList": [
+                3,
+                2
+            ],
+            "selReasonList": [
+                "The graphs look almost the same.",
+                "Aggregate occurred suddenly."
+            ],
+            "confidenceList": [
+                3,
+                3
+            ],
+            "timeList": [
+                218209,
+                194743
+            ]
+        },
+        {
+            "questionId": 11,
+            "task": 1,
+            "caseName": "ssb-q11",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711265221684,
+            "endTime": 1711265580140,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "Guess :("
+            ],
+            "confidenceList": [
+                1
+            ],
+            "timeList": [
+                358456
+            ]
+        },
+        {
+            "questionId": 13,
+            "task": 1,
+            "caseName": "bug0-0",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711265581029,
+            "endTime": 1711265784631,
+            "selectionList": [
+                3
+            ],
+            "selReasonList": [
+                "100 repeats"
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                203602
+            ]
+        },
+        {
+            "questionId": 15,
+            "task": 1,
+            "caseName": "bug4-1",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711265785506,
+            "endTime": 1711266065998,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "No problem"
+            ],
+            "confidenceList": [
+                2
+            ],
+            "timeList": [
+                280492
+            ]
+        },
+        {
+            "questionId": 20,
+            "task": 2,
+            "caseName": "bug4-0",
+            "method": "nm",
+            "answerCount": 3,
+            "startTime": 1711266067394,
+            "endTime": 1711267092733,
+            "selectionList": [
+                1,
+                2,
+                3
+            ],
+            "selReasonList": [
+                "I can not solve",
+                "I can not solve",
+                "I can not solve"
+            ],
+            "confidenceList": [
+                1,
+                1,
+                1
+            ],
+            "timeList": [
+                1006053,
+                6982,
+                12304
+            ]
+        },
+        {
+            "questionId": 21,
+            "task": 2,
+            "caseName": "bug1-0",
+            "method": "qv",
+            "answerCount": 2,
+            "startTime": 1711267093990,
+            "endTime": 1711267683969,
+            "selectionList": [
+                1,
+                2
+            ],
+            "selReasonList": [
+                "Wrong Aggregation",
+                "Wrong Aggregation"
+            ],
+            "confidenceList": [
+                4,
+                4
+            ],
+            "timeList": [
+                566831,
+                23148
+            ]
+        },
+        {
+            "questionId": 25,
+            "task": 2,
+            "caseName": "bug0-0",
+            "method": "qvm",
+            "answerCount": 2,
+            "startTime": 1711267684811,
+            "endTime": 1711268245395,
+            "selectionList": [
+                0,
+                1
+            ],
+            "selReasonList": [
+                "It occurs so many times.",
+                "The projects are added and removed back and forth."
+            ],
+            "confidenceList": [
+                5,
+                5
+            ],
+            "timeList": [
+                165815,
+                394769
+            ]
+        }
+    ]
+}

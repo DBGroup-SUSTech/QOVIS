@@ -1,0 +1,238 @@
+{
+    "person": {
+        "pid": 30,
+        "order": 29,
+        "name": "User 30",
+        "gender": "Male",
+        "age": 23,
+        "email": "user30@example.com",
+        "level": "Master",
+        "major": "",
+        "familiarWithVIS": false,
+        "familiarWithDB": false,
+        "familiarWithQO": false
+    },
+    "answers": [
+        {
+            "questionId": 2,
+            "task": 1,
+            "caseName": "bug4-0",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711263567780,
+            "endTime": 1711264555879,
+            "selectionList": [
+                1
+            ],
+            "selReasonList": [
+                "!'UnresolvedHint BROADCAST, ['t]                       'Project [*]\n!+- 'Project [*]                                       +- 'Filter ('t.t_col = 's.s_col)\n!   +- 'Filter ('t.t_col = 's.s_col)                      +- 'SubqueryAlias s\n!      +- 'SubqueryAlias s                                   +- 'UnresolvedRelation [source], [], false\n!         +- 'UnresolvedRelation [source], [], false   "
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                988099
+            ]
+        },
+        {
+            "questionId": 4,
+            "task": 1,
+            "caseName": "ssb-q1",
+            "method": "qvm",
+            "answerCount": 2,
+            "startTime": 1711264558034,
+            "endTime": 1711264952113,
+            "selectionList": [
+                3,
+                0
+            ],
+            "selReasonList": [
+                "reslove functions",
+                "can not find errors"
+            ],
+            "confidenceList": [
+                4,
+                3
+            ],
+            "timeList": [
+                358174,
+                35905
+            ]
+        },
+        {
+            "questionId": 6,
+            "task": 1,
+            "caseName": "bug1-0",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711264953270,
+            "endTime": 1711265329213,
+            "selectionList": [
+                2
+            ],
+            "selReasonList": [
+                "not same"
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                375943
+            ]
+        },
+        {
+            "questionId": 11,
+            "task": 1,
+            "caseName": "ssb-q11",
+            "method": "nm",
+            "answerCount": 3,
+            "startTime": 1711265330152,
+            "endTime": 1711266380967,
+            "selectionList": [
+                3,
+                1,
+                0
+            ],
+            "selReasonList": [
+                "line 1871 - line 19=895",
+                "maybe.",
+                "do not know"
+            ],
+            "confidenceList": [
+                4,
+                1,
+                1
+            ],
+            "timeList": [
+                588096,
+                376411,
+                86308
+            ]
+        },
+        {
+            "questionId": 13,
+            "task": 1,
+            "caseName": "bug0-0",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711266381810,
+            "endTime": 1711266586763,
+            "selectionList": [
+                3
+            ],
+            "selReasonList": [
+                "remove noop operators"
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                204953
+            ]
+        },
+        {
+            "questionId": 15,
+            "task": 1,
+            "caseName": "bug4-1",
+            "method": "qv",
+            "answerCount": 2,
+            "startTime": 1711266587632,
+            "endTime": 1711266861211,
+            "selectionList": [
+                3,
+                0
+            ],
+            "selReasonList": [
+                "right",
+                "not confident"
+            ],
+            "confidenceList": [
+                5,
+                3
+            ],
+            "timeList": [
+                251610,
+                21967
+            ]
+        },
+        {
+            "questionId": 20,
+            "task": 2,
+            "caseName": "bug4-0",
+            "method": "nm",
+            "answerCount": 4,
+            "startTime": 1711266862216,
+            "endTime": 1711267357033,
+            "selectionList": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "selReasonList": [
+                "right",
+                "can not read log.",
+                "can not read log",
+                "the final choice"
+            ],
+            "confidenceList": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "timeList": [
+                449487,
+                23924,
+                9683,
+                11721
+            ]
+        },
+        {
+            "questionId": 21,
+            "task": 2,
+            "caseName": "bug1-0",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711267358015,
+            "endTime": 1711267627323,
+            "selectionList": [
+                2
+            ],
+            "selReasonList": [
+                "id#6 disappear"
+            ],
+            "confidenceList": [
+                4
+            ],
+            "timeList": [
+                269308
+            ]
+        },
+        {
+            "questionId": 25,
+            "task": 2,
+            "caseName": "bug0-0",
+            "method": "qvm",
+            "answerCount": 2,
+            "startTime": 1711267628352,
+            "endTime": 1711268051409,
+            "selectionList": [
+                0,
+                1
+            ],
+            "selReasonList": [
+                "maybe",
+                "yesy"
+            ],
+            "confidenceList": [
+                3,
+                3
+            ],
+            "timeList": [
+                405887,
+                17168
+            ]
+        }
+    ]
+}

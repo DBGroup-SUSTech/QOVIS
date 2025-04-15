@@ -1,0 +1,219 @@
+{
+    "person": {
+        "pid": 6,
+        "order": 5,
+        "name": "User 6",
+        "gender": "Male",
+        "age": 30,
+        "email": "user6@example.com",
+        "level": "Ph.D.",
+        "major": "Similarity search",
+        "familiarWithVIS": false,
+        "familiarWithDB": true,
+        "familiarWithQO": false
+    },
+    "answers": [
+        {
+            "questionId": 2,
+            "task": 1,
+            "caseName": "bug4-0",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711263917050,
+            "endTime": 1711264594238,
+            "selectionList": [
+                1
+            ],
+            "selReasonList": [
+                "ResolvedHint not exist in log"
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                677188
+            ]
+        },
+        {
+            "questionId": 4,
+            "task": 1,
+            "caseName": "ssb-q1",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711264598364,
+            "endTime": 1711265087192,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "No issue were found"
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                488828
+            ]
+        },
+        {
+            "questionId": 6,
+            "task": 1,
+            "caseName": "bug1-0",
+            "method": "qv",
+            "answerCount": 2,
+            "startTime": 1711265090106,
+            "endTime": 1711265891757,
+            "selectionList": [
+                0,
+                2
+            ],
+            "selReasonList": [
+                "No issue were found",
+                "ids2 optimized wrong"
+            ],
+            "confidenceList": [
+                2,
+                2
+            ],
+            "timeList": [
+                554864,
+                246787
+            ]
+        },
+        {
+            "questionId": 11,
+            "task": 1,
+            "caseName": "ssb-q11",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711265893309,
+            "endTime": 1711266260260,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "No issue were found"
+            ],
+            "confidenceList": [
+                1
+            ],
+            "timeList": [
+                366951
+            ]
+        },
+        {
+            "questionId": 13,
+            "task": 1,
+            "caseName": "bug0-0",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711266263551,
+            "endTime": 1711266715773,
+            "selectionList": [
+                3
+            ],
+            "selReasonList": [
+                "I noticed the issue"
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                452222
+            ]
+        },
+        {
+            "questionId": 15,
+            "task": 1,
+            "caseName": "bug4-1",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711266717046,
+            "endTime": 1711267018848,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "No issue were found"
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                301802
+            ]
+        },
+        {
+            "questionId": 20,
+            "task": 2,
+            "caseName": "bug4-0",
+            "method": "nm",
+            "answerCount": 2,
+            "startTime": 1711267020090,
+            "endTime": 1711267317068,
+            "selectionList": [
+                0,
+                3
+            ],
+            "selReasonList": [
+                "No found resolvedhint",
+                "guess"
+            ],
+            "confidenceList": [
+                4,
+                2
+            ],
+            "timeList": [
+                175741,
+                121237
+            ]
+        },
+        {
+            "questionId": 21,
+            "task": 2,
+            "caseName": "bug1-0",
+            "method": "qv",
+            "answerCount": 2,
+            "startTime": 1711267318481,
+            "endTime": 1711267621306,
+            "selectionList": [
+                0,
+                2
+            ],
+            "selReasonList": [
+                "I noticed the issue",
+                "I noticed the problem"
+            ],
+            "confidenceList": [
+                3,
+                2
+            ],
+            "timeList": [
+                284447,
+                18376
+            ]
+        },
+        {
+            "questionId": 25,
+            "task": 2,
+            "caseName": "bug0-0",
+            "method": "qvm",
+            "answerCount": 3,
+            "startTime": 1711267622629,
+            "endTime": 1711267930571,
+            "selectionList": [
+                1
+            ],
+            "selReasonList": [
+                "I noticed the problem"
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                307942
+            ],
+            "comment": "the last two is selected by mistake"
+        }
+    ]
+}

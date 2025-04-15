@@ -1,0 +1,234 @@
+{
+    "person": {
+        "pid": 24,
+        "order": 23,
+        "name": "User 24",
+        "gender": "Male",
+        "age": 22,
+        "email": "user24@example.com",
+        "level": "Undergraduate",
+        "major": "vector search",
+        "familiarWithVIS": false,
+        "familiarWithDB": false,
+        "familiarWithQO": false
+    },
+    "answers": [
+        {
+            "questionId": 2,
+            "task": 1,
+            "caseName": "bug4-0",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711263471831,
+            "endTime": 1711264273052,
+            "selectionList": [
+                1
+            ],
+            "selReasonList": [
+                "ResolvedHint not found in analysis phase"
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                801221
+            ]
+        },
+        {
+            "questionId": 4,
+            "task": 1,
+            "caseName": "ssb-q1",
+            "method": "qvm",
+            "answerCount": 3,
+            "startTime": 1711264275283,
+            "endTime": 1711264713850,
+            "selectionList": [
+                3,
+                2,
+                0
+            ],
+            "selReasonList": [
+                "found same steps",
+                "N/A",
+                "N/A"
+            ],
+            "confidenceList": [
+                3,
+                2,
+                1
+            ],
+            "timeList": [
+                178253,
+                245036,
+                15278
+            ]
+        },
+        {
+            "questionId": 6,
+            "task": 1,
+            "caseName": "bug1-0",
+            "method": "qv",
+            "answerCount": 2,
+            "startTime": 1711264715373,
+            "endTime": 1711265196297,
+            "selectionList": [
+                1,
+                2
+            ],
+            "selReasonList": [
+                "N/A",
+                "N/A"
+            ],
+            "confidenceList": [
+                2,
+                1
+            ],
+            "timeList": [
+                474391,
+                6533
+            ]
+        },
+        {
+            "questionId": 11,
+            "task": 1,
+            "caseName": "ssb-q11",
+            "method": "nm",
+            "answerCount": 2,
+            "startTime": 1711265197563,
+            "endTime": 1711265542468,
+            "selectionList": [
+                2,
+                0
+            ],
+            "selReasonList": [
+                "not b,d so c",
+                "not bcd so a"
+            ],
+            "confidenceList": [
+                3,
+                1
+            ],
+            "timeList": [
+                333305,
+                11600
+            ]
+        },
+        {
+            "questionId": 13,
+            "task": 1,
+            "caseName": "bug0-0",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711265546696,
+            "endTime": 1711265719155,
+            "selectionList": [
+                3
+            ],
+            "selReasonList": [
+                "N/A"
+            ],
+            "confidenceList": [
+                2
+            ],
+            "timeList": [
+                172458
+            ]
+        },
+        {
+            "questionId": 15,
+            "task": 1,
+            "caseName": "bug4-1",
+            "method": "qv",
+            "answerCount": 3,
+            "startTime": 1711265720955,
+            "endTime": 1711266111160,
+            "selectionList": [
+                3,
+                2,
+                0
+            ],
+            "selReasonList": [
+                "N/A",
+                "not bd",
+                "not bcd"
+            ],
+            "confidenceList": [
+                3,
+                2,
+                3
+            ],
+            "timeList": [
+                288720,
+                88102,
+                13383
+            ]
+        },
+        {
+            "questionId": 20,
+            "task": 2,
+            "caseName": "bug4-0",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711266112443,
+            "endTime": 1711266474910,
+            "selectionList": [
+                3
+            ],
+            "selReasonList": [
+                "as said in d"
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                362467
+            ]
+        },
+        {
+            "questionId": 21,
+            "task": 2,
+            "caseName": "bug1-0",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711266476998,
+            "endTime": 1711266747253,
+            "selectionList": [
+                2
+            ],
+            "selReasonList": [
+                "the line disappears at this step"
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                270255
+            ]
+        },
+        {
+            "questionId": 25,
+            "task": 2,
+            "caseName": "bug0-0",
+            "method": "qvm",
+            "answerCount": 2,
+            "startTime": 1711266748636,
+            "endTime": 1711267216392,
+            "selectionList": [
+                3,
+                1
+            ],
+            "selReasonList": [
+                "N/A",
+                "N/A"
+            ],
+            "confidenceList": [
+                3,
+                2
+            ],
+            "timeList": [
+                433273,
+                34483
+            ]
+        }
+    ]
+}

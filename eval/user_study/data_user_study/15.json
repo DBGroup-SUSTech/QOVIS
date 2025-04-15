@@ -1,0 +1,226 @@
+{
+    "person": {
+        "pid": 15,
+        "order": 14,
+        "name": "User 15",
+        "gender": "Female",
+        "age": 24,
+        "email": "user15@example.com",
+        "level": "Master",
+        "major": "computer science",
+        "familiarWithVIS": true,
+        "familiarWithDB": false,
+        "familiarWithQO": false
+    },
+    "answers": [
+        {
+            "questionId": 1,
+            "task": 1,
+            "caseName": "bug4-0",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711263821517,
+            "endTime": 1711264610568,
+            "selectionList": [
+                1
+            ],
+            "selReasonList": [
+                "There are no ResolvedHint nodes after Analysis phase"
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                789051
+            ]
+        },
+        {
+            "questionId": 3,
+            "task": 1,
+            "caseName": "ssb-q1",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711264612115,
+            "endTime": 1711265347863,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "b no difference\nc Filter in InnerJoin is same as before\nd no repeat in Optimization phase\n"
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                735748
+            ]
+        },
+        {
+            "questionId": 8,
+            "task": 1,
+            "caseName": "bug1-0",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711265349632,
+            "endTime": 1711266489192,
+            "selectionList": [
+                2
+            ],
+            "selReasonList": [
+                "add Sort [lo_orderdate#23 ASC NULLS FIRST]\nadd Exchange hashpartitioning"
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                1139560
+            ]
+        },
+        {
+            "questionId": 10,
+            "task": 1,
+            "caseName": "ssb-q11",
+            "method": "qvm",
+            "answerCount": 2,
+            "startTime": 1711266492869,
+            "endTime": 1711266998336,
+            "selectionList": [
+                1,
+                0
+            ],
+            "selReasonList": [
+                "only 4 innerjoin after Optimization phase",
+                "no difference"
+            ],
+            "confidenceList": [
+                4,
+                4
+            ],
+            "timeList": [
+                192806,
+                312661
+            ]
+        },
+        {
+            "questionId": 12,
+            "task": 1,
+            "caseName": "bug0-0",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711266999563,
+            "endTime": 1711267125928,
+            "selectionList": [
+                3
+            ],
+            "selReasonList": [
+                "100 repeats in optimization phase"
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                126365
+            ]
+        },
+        {
+            "questionId": 17,
+            "task": 1,
+            "caseName": "bug4-1",
+            "method": "nm",
+            "answerCount": 4,
+            "startTime": 1711267126914,
+            "endTime": 1711267488785,
+            "selectionList": [
+                1,
+                3,
+                2,
+                0
+            ],
+            "selReasonList": [
+                "can't find broadcast hint",
+                "can't find broadcast hint",
+                "different",
+                "no difference"
+            ],
+            "confidenceList": [
+                3,
+                3,
+                2,
+                3
+            ],
+            "timeList": [
+                283459,
+                34352,
+                22604,
+                21456
+            ]
+        },
+        {
+            "questionId": 19,
+            "task": 2,
+            "caseName": "bug4-0",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711267490471,
+            "endTime": 1711267694675,
+            "selectionList": [
+                3
+            ],
+            "selReasonList": [
+                "after resolveJoinStrategyHints, broadcast is removed"
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                204204
+            ]
+        },
+        {
+            "questionId": 23,
+            "task": 2,
+            "caseName": "bug1-0",
+            "method": "nm",
+            "answerCount": 2,
+            "startTime": 1711267695559,
+            "endTime": 1711267971311,
+            "selectionList": [
+                0,
+                2
+            ],
+            "selReasonList": [
+                "23/11/10 17:21:07 TRACE PlanChangeLogger: \n=== Applying Rule org.apache.spark.sql.catalyst.optimizer.PushDownLeftSemiAntiJoin ===\n!Join LeftAnti, (id#6 = id#4)                'Aggregate [id#4], [(id#4 + 1) AS id#6]\n!:- Aggregate [id#4], [(id#4 + 1) AS id#6]   +- 'Join LeftAnti, ((id#4 + 1) = id#4)\n!:  +- LocalRelation [id#4]                     :- LocalRelation [id#4]\n!+- Aggregate [id#4], [id#4]                    +- Aggregate [id#4], [id#4]\n!   +- LocalRelation [id#4]                        +- LocalRelation [id#4]",
+                "23/11/10 17:21:07 TRACE PlanChangeLogger: \n=== Applying Rule org.apache.spark.sql.catalyst.optimizer.PushDownLeftSemiAntiJoin ===\n!Join LeftAnti, (id#6 = id#4)                'Aggregate [id#4], [(id#4 + 1) AS id#6]\n!:- Aggregate [id#4], [(id#4 + 1) AS id#6]   +- 'Join LeftAnti, ((id#4 + 1) = id#4)\n!:  +- LocalRelation [id#4]                     :- LocalRelation [id#4]\n!+- Aggregate [id#4], [id#4]                    +- Aggregate [id#4], [id#4]\n!   +- LocalRelation [id#4]                        +- LocalRelation [id#4]"
+            ],
+            "confidenceList": [
+                5,
+                5
+            ],
+            "timeList": [
+                261561,
+                14188
+            ]
+        },
+        {
+            "questionId": 24,
+            "task": 2,
+            "caseName": "bug0-0",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711267972418,
+            "endTime": 1711268299393,
+            "selectionList": [
+                1
+            ],
+            "selReasonList": [
+                "added two projects in columnPruning"
+            ],
+            "confidenceList": [
+                4
+            ],
+            "timeList": [
+                326975
+            ]
+        }
+    ]
+}

@@ -1,0 +1,241 @@
+{
+    "person": {
+        "pid": 7,
+        "order": 6,
+        "name": "User 7",
+        "gender": "Male",
+        "age": 31,
+        "email": "user7@example.com",
+        "level": "Ph.D.",
+        "major": "Graph processing",
+        "familiarWithVIS": false,
+        "familiarWithDB": true,
+        "familiarWithQO": false
+    },
+    "answers": [
+        {
+            "questionId": 0,
+            "task": 1,
+            "caseName": "bug4-0",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711263806478,
+            "endTime": 1711264584139,
+            "selectionList": [
+                1
+            ],
+            "selReasonList": [
+                "can not find broadcast"
+            ],
+            "confidenceList": [
+                2
+            ],
+            "timeList": [
+                777661
+            ]
+        },
+        {
+            "questionId": 4,
+            "task": 1,
+            "caseName": "ssb-q1",
+            "method": "qvm",
+            "answerCount": 4,
+            "startTime": 1711264590364,
+            "endTime": 1711264984704,
+            "selectionList": [
+                1,
+                3,
+                2,
+                0
+            ],
+            "selReasonList": [
+                "There are two aggregate",
+                "repeat",
+                "can not find join",
+                "i don not know"
+            ],
+            "confidenceList": [
+                2,
+                2,
+                2,
+                1
+            ],
+            "timeList": [
+                302632,
+                20875,
+                20332,
+                50501
+            ]
+        },
+        {
+            "questionId": 8,
+            "task": 1,
+            "caseName": "bug1-0",
+            "method": "nm",
+            "answerCount": 2,
+            "startTime": 1711264986715,
+            "endTime": 1711265212329,
+            "selectionList": [
+                0,
+                2
+            ],
+            "selReasonList": [
+                "Batch OptimizeLimitZero has no effect.",
+                "Batch OptimizeLimitZero has no effect."
+            ],
+            "confidenceList": [
+                1,
+                1
+            ],
+            "timeList": [
+                205317,
+                20295
+            ]
+        },
+        {
+            "questionId": 9,
+            "task": 1,
+            "caseName": "ssb-q11",
+            "method": "qv",
+            "answerCount": 3,
+            "startTime": 1711265215153,
+            "endTime": 1711265468653,
+            "selectionList": [
+                1,
+                2,
+                0
+            ],
+            "selReasonList": [
+                "can not find join table",
+                "can not find opt",
+                "can not find"
+            ],
+            "confidenceList": [
+                1,
+                1,
+                1
+            ],
+            "timeList": [
+                134629,
+                46842,
+                72029
+            ]
+        },
+        {
+            "questionId": 13,
+            "task": 1,
+            "caseName": "bug0-0",
+            "method": "qvm",
+            "answerCount": 2,
+            "startTime": 1711265470655,
+            "endTime": 1711265670621,
+            "selectionList": [
+                1,
+                3
+            ],
+            "selReasonList": [
+                "i find filter",
+                "project repeat twice"
+            ],
+            "confidenceList": [
+                1,
+                1
+            ],
+            "timeList": [
+                126634,
+                73332
+            ]
+        },
+        {
+            "questionId": 17,
+            "task": 1,
+            "caseName": "bug4-1",
+            "method": "nm",
+            "answerCount": 2,
+            "startTime": 1711265672304,
+            "endTime": 1711265837515,
+            "selectionList": [
+                3,
+                0
+            ],
+            "selReasonList": [
+                "can not find inner join",
+                "can not find"
+            ],
+            "confidenceList": [
+                1,
+                1
+            ],
+            "timeList": [
+                112754,
+                52455
+            ]
+        },
+        {
+            "questionId": 18,
+            "task": 2,
+            "caseName": "bug4-0",
+            "method": "qv",
+            "answerCount": 3,
+            "startTime": 1711265839497,
+            "endTime": 1711266088043,
+            "selectionList": [
+                1,
+                2,
+                3
+            ],
+            "selReasonList": [
+                "can not find",
+                "can not find",
+                "can not find"
+            ],
+            "confidenceList": [
+                1,
+                1,
+                1
+            ],
+            "timeList": [
+                217865,
+                13260,
+                17421
+            ]
+        },
+        {
+            "questionId": 23,
+            "task": 2,
+            "caseName": "bug1-0",
+            "method": "nm",
+            "answerCount": 0,
+            "startTime": 1711266090275,
+            "endTime": 0,
+            "comment": "Collect data eror",
+            "selectionList": [
+                -1
+            ],
+            "selReasonList": [],
+            "confidenceList": [],
+            "timeList": []
+        },
+        {
+            "questionId": 25,
+            "task": 2,
+            "caseName": "bug0-0",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711266090491,
+            "endTime": 1711266186153,
+            "selectionList": [
+                1
+            ],
+            "selReasonList": [
+                "there is one project in the right"
+            ],
+            "confidenceList": [
+                1
+            ],
+            "timeList": [
+                95662
+            ]
+        }
+    ]
+}

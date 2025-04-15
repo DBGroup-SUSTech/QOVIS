@@ -1,0 +1,230 @@
+{
+    "person": {
+        "pid": 13,
+        "order": 12,
+        "name": "User 13",
+        "gender": "Male",
+        "age": 22,
+        "email": "user13@example.com",
+        "level": "Master",
+        "major": "vector search",
+        "familiarWithVIS": false,
+        "familiarWithDB": false,
+        "familiarWithQO": false
+    },
+    "answers": [
+        {
+            "questionId": 0,
+            "task": 1,
+            "caseName": "bug4-0",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711263417095,
+            "endTime": 1711264025902,
+            "selectionList": [
+                1
+            ],
+            "selReasonList": [
+                "it has a break in optimization stage"
+            ],
+            "confidenceList": [
+                4
+            ],
+            "timeList": [
+                608807
+            ]
+        },
+        {
+            "questionId": 4,
+            "task": 1,
+            "caseName": "ssb-q1",
+            "method": "qvm",
+            "answerCount": 2,
+            "startTime": 1711264028396,
+            "endTime": 1711264773004,
+            "selectionList": [
+                3,
+                0
+            ],
+            "selReasonList": [
+                "there exist a loop in optimization phase",
+                "no optimization"
+            ],
+            "confidenceList": [
+                5,
+                3
+            ],
+            "timeList": [
+                526699,
+                217909
+            ]
+        },
+        {
+            "questionId": 8,
+            "task": 1,
+            "caseName": "bug1-0",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711264774423,
+            "endTime": 1711265532064,
+            "selectionList": [
+                2
+            ],
+            "selReasonList": [
+                "final plan is wrong and the plan after analyzed is correct"
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                757641
+            ]
+        },
+        {
+            "questionId": 9,
+            "task": 1,
+            "caseName": "ssb-q11",
+            "method": "qv",
+            "answerCount": 2,
+            "startTime": 1711265532933,
+            "endTime": 1711266273455,
+            "selectionList": [
+                3,
+                0
+            ],
+            "selReasonList": [
+                "there has some repeat in optimization phase",
+                "BCD is wrong"
+            ],
+            "confidenceList": [
+                4,
+                4
+            ],
+            "timeList": [
+                350992,
+                389530
+            ]
+        },
+        {
+            "questionId": 13,
+            "task": 1,
+            "caseName": "bug0-0",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711266278030,
+            "endTime": 1711266462200,
+            "selectionList": [
+                3
+            ],
+            "selReasonList": [
+                "there exist some repeat things"
+            ],
+            "confidenceList": [
+                4
+            ],
+            "timeList": [
+                184170
+            ]
+        },
+        {
+            "questionId": 17,
+            "task": 1,
+            "caseName": "bug4-1",
+            "method": "nm",
+            "answerCount": 3,
+            "startTime": 1711266463174,
+            "endTime": 1711266758794,
+            "selectionList": [
+                2,
+                1,
+                0
+            ],
+            "selReasonList": [
+                "final plan is wrong while analyzed plan is right",
+                "analyzed plan is right while final plan is wrong",
+                "guess"
+            ],
+            "confidenceList": [
+                3,
+                2,
+                2
+            ],
+            "timeList": [
+                207369,
+                40323,
+                47925
+            ]
+        },
+        {
+            "questionId": 18,
+            "task": 2,
+            "caseName": "bug4-0",
+            "method": "qv",
+            "answerCount": 2,
+            "startTime": 1711266759700,
+            "endTime": 1711267072353,
+            "selectionList": [
+                0,
+                3
+            ],
+            "selReasonList": [
+                "there exist a break in optimization stage",
+                "the hint node stop in final analyzed step"
+            ],
+            "confidenceList": [
+                4,
+                4
+            ],
+            "timeList": [
+                178465,
+                134188
+            ]
+        },
+        {
+            "questionId": 23,
+            "task": 2,
+            "caseName": "bug1-0",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711267073205,
+            "endTime": 1711267598764,
+            "selectionList": [
+                2
+            ],
+            "selReasonList": [
+                "AB is correct and D result is equivalent so C maybe the right one."
+            ],
+            "confidenceList": [
+                2
+            ],
+            "timeList": [
+                525559
+            ]
+        },
+        {
+            "questionId": 25,
+            "task": 2,
+            "caseName": "bug0-0",
+            "method": "qvm",
+            "answerCount": 2,
+            "startTime": 1711267599587,
+            "endTime": 1711268155239,
+            "selectionList": [
+                0,
+                1
+            ],
+            "selReasonList": [
+                "the system show that the result before and after the inferfilterfromconstraints step is the same.",
+                "the operater optimization show inside the stage of the plan doesn't change at all"
+            ],
+            "confidenceList": [
+                5,
+                5
+            ],
+            "timeList": [
+                150134,
+                405518
+            ]
+        }
+    ]
+}

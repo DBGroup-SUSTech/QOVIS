@@ -1,0 +1,222 @@
+{
+    "person": {
+        "pid": 28,
+        "order": 27,
+        "name": "User 28",
+        "gender": "Male",
+        "age": 25,
+        "email": "user28@example.com",
+        "level": "",
+        "major": "",
+        "familiarWithVIS": false,
+        "familiarWithDB": false,
+        "familiarWithQO": false
+    },
+    "answers": [
+        {
+            "questionId": 1,
+            "task": 1,
+            "caseName": "bug4-0",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711263879739,
+            "endTime": 1711264608421,
+            "selectionList": [
+                1
+            ],
+            "selReasonList": [
+                "There are no ResolvedHint in the analysis phase"
+            ],
+            "confidenceList": [
+                2
+            ],
+            "timeList": [
+                728682
+            ]
+        },
+        {
+            "questionId": 5,
+            "task": 1,
+            "caseName": "ssb-q1",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711264609800,
+            "endTime": 1711265533318,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "The aggregate function is right, no repeat steps, the join condition is right"
+            ],
+            "confidenceList": [
+                2
+            ],
+            "timeList": [
+                923518
+            ]
+        },
+        {
+            "questionId": 6,
+            "task": 1,
+            "caseName": "bug1-0",
+            "method": "qv",
+            "answerCount": 2,
+            "startTime": 1711265534853,
+            "endTime": 1711266529359,
+            "selectionList": [
+                0,
+                2
+            ],
+            "selReasonList": [
+                "The join logic seems no problem, analyze phase value#4 to value#7",
+                "analyze phase value#1 to value#7,but optimize phase value#7 and value#1 both goes to id#4"
+            ],
+            "confidenceList": [
+                3,
+                1
+            ],
+            "timeList": [
+                691769,
+                302737
+            ]
+        },
+        {
+            "questionId": 10,
+            "task": 1,
+            "caseName": "ssb-q11",
+            "method": "qvm",
+            "answerCount": 2,
+            "startTime": 1711266530822,
+            "endTime": 1711267335972,
+            "selectionList": [
+                2,
+                0
+            ],
+            "selReasonList": [
+                "joined 5 tables, no continuously reorder join",
+                "no issue"
+            ],
+            "confidenceList": [
+                2,
+                2
+            ],
+            "timeList": [
+                792966,
+                12181
+            ]
+        },
+        {
+            "questionId": 14,
+            "task": 1,
+            "caseName": "bug0-0",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711267337385,
+            "endTime": 1711267496189,
+            "selectionList": [
+                3
+            ],
+            "selReasonList": [
+                "no change "
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                158804
+            ]
+        },
+        {
+            "questionId": 15,
+            "task": 1,
+            "caseName": "bug4-1",
+            "method": "qv",
+            "answerCount": 2,
+            "startTime": 1711267497853,
+            "endTime": 1711267778978,
+            "selectionList": [
+                3,
+                0
+            ],
+            "selReasonList": [
+                "no innerjoin node from resolved hint",
+                "no issue"
+            ],
+            "confidenceList": [
+                3,
+                2
+            ],
+            "timeList": [
+                187024,
+                94101
+            ]
+        },
+        {
+            "questionId": 19,
+            "task": 2,
+            "caseName": "bug4-0",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711267780210,
+            "endTime": 1711267982498,
+            "selectionList": [
+                3
+            ],
+            "selReasonList": [
+                "no resolved node"
+            ],
+            "confidenceList": [
+                2
+            ],
+            "timeList": [
+                202288
+            ]
+        },
+        {
+            "questionId": 21,
+            "task": 2,
+            "caseName": "bug1-0",
+            "method": "qv",
+            "answerCount": 2,
+            "startTime": 1711267984147,
+            "endTime": 1711268281186,
+            "selectionList": [
+                3,
+                2
+            ],
+            "selReasonList": [
+                "right is empty",
+                "no this step"
+            ],
+            "confidenceList": [
+                3,
+                1
+            ],
+            "timeList": [
+                259153,
+                37884
+            ]
+        },
+        {
+            "questionId": 26,
+            "task": 2,
+            "caseName": "bug0-0",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711268282567,
+            "endTime": 1711268550668,
+            "selectionList": [
+                1
+            ],
+            "selReasonList": [
+                "collapse"
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                268101
+            ]
+        }
+    ]
+}

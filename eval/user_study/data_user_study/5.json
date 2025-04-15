@@ -1,0 +1,222 @@
+{
+    "person": {
+        "pid": 35,
+        "order": 34,
+        "name": "User 35",
+        "gender": "Female",
+        "age": 21,
+        "email": "user35@example.com",
+        "level": "Undergraduate",
+        "major": "CS(outliers diresction in edge environment)",
+        "familiarWithVIS": false,
+        "familiarWithDB": false,
+        "familiarWithQO": false
+    },
+    "answers": [
+        {
+            "questionId": 2,
+            "task": 1,
+            "caseName": "bug4-0",
+            "method": "nm",
+            "answerCount": 2,
+            "startTime": 1711263042966,
+            "endTime": 1711265176839,
+            "selectionList": [
+                0,
+                1
+            ],
+            "selReasonList": [
+                "\u611f\u89c9\u90fd\u633a\u5bf9\u7684",
+                "\u6ca1\u770b\u5230ResolvedHint"
+            ],
+            "confidenceList": [
+                1,
+                1
+            ],
+            "timeList": [
+                1436902,
+                696971
+            ]
+        },
+        {
+            "questionId": 3,
+            "task": 1,
+            "caseName": "ssb-q1",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711265178281,
+            "endTime": 1711265894586,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "\u611f\u89c9\u6ca1\u9519"
+            ],
+            "confidenceList": [
+                1
+            ],
+            "timeList": [
+                716305
+            ]
+        },
+        {
+            "questionId": 7,
+            "task": 1,
+            "caseName": "bug1-0",
+            "method": "qvm",
+            "answerCount": 2,
+            "startTime": 1711265898777,
+            "endTime": 1711266892284,
+            "selectionList": [
+                3,
+                2
+            ],
+            "selReasonList": [
+                "the data source in right table is changed",
+                "join operator is missed"
+            ],
+            "confidenceList": [
+                2,
+                3
+            ],
+            "timeList": [
+                810308,
+                183199
+            ]
+        },
+        {
+            "questionId": 11,
+            "task": 1,
+            "caseName": "ssb-q11",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711266893956,
+            "endTime": 1711268110675,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "other three can be found."
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                1216719
+            ]
+        },
+        {
+            "questionId": 12,
+            "task": 1,
+            "caseName": "bug0-0",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711268112246,
+            "endTime": 1711268418690,
+            "selectionList": [
+                3
+            ],
+            "selReasonList": [
+                "the last step of optimization \"Group of \u2026\u2026\" is repeated"
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                306444
+            ]
+        },
+        {
+            "questionId": 16,
+            "task": 1,
+            "caseName": "bug4-1",
+            "method": "qvm",
+            "answerCount": 2,
+            "startTime": 1711268419833,
+            "endTime": 1711268844712,
+            "selectionList": [
+                2,
+                0
+            ],
+            "selReasonList": [
+                "Project \u53bb\u6389\u4e4b\u540e\u7ed3\u679c\u524d\u540e\u6709\u533a\u522b",
+                "BD \u70b9\u5f00\u56fe\u90fd\u770b\u5230\u4e86hint\u6709\u52a0\u4e0a\uff0cC \u524d\u540e\u7ed3\u679c\u4e00\u81f4"
+            ],
+            "confidenceList": [
+                3,
+                3
+            ],
+            "timeList": [
+                245191,
+                179688
+            ]
+        },
+        {
+            "questionId": 20,
+            "task": 2,
+            "caseName": "bug4-0",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711268846299,
+            "endTime": 1711269699042,
+            "selectionList": [
+                3
+            ],
+            "selReasonList": [
+                "\u5728logfile\u4e2d\u53ef\u4ee5\u627e\u5230\u8fd9\u4e00\u6b65"
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                852743
+            ]
+        },
+        {
+            "questionId": 22,
+            "task": 2,
+            "caseName": "bug1-0",
+            "method": "qvm",
+            "answerCount": 2,
+            "startTime": 1711269700621,
+            "endTime": 1711270037286,
+            "selectionList": [
+                1,
+                2
+            ],
+            "selReasonList": [
+                "\u901a\u8fc7\u4e0d\u65ad\u5c55\u5f00plan\u4f18\u5316\u7684\u5c42\u7ea7\uff0c\u53d1\u73b0\u8fd9\u4e00\u6b65join\u7684\u6539\u5199\u6709\u95ee\u9898",
+                "\u521a\u521a\u90a3\u6b21\u6309\u9519\u4e86"
+            ],
+            "confidenceList": [
+                3,
+                3
+            ],
+            "timeList": [
+                303529,
+                33133
+            ]
+        },
+        {
+            "questionId": 24,
+            "task": 2,
+            "caseName": "bug0-0",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711270038531,
+            "endTime": 1711270307754,
+            "selectionList": [
+                1
+            ],
+            "selReasonList": [
+                "\u901a\u8fc7\u7814\u7a76tranformation link\u53ef\u4ee5\u53d1\u73b0\u8fd9\u4e2aoptimization loop"
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                269223
+            ]
+        }
+    ]
+}

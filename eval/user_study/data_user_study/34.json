@@ -1,0 +1,246 @@
+{
+    "person": {
+        "pid": 34,
+        "order": 33,
+        "name": "User 34",
+        "gender": "Male",
+        "age": 23,
+        "email": "user34@example.com",
+        "level": "Master",
+        "major": "Computer Science and Technology",
+        "familiarWithVIS": false,
+        "familiarWithDB": false,
+        "familiarWithQO": false
+    },
+    "answers": [
+        {
+            "questionId": 1,
+            "task": 1,
+            "caseName": "bug4-0",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711263483265,
+            "endTime": 1711264565664,
+            "selectionList": [
+                1
+            ],
+            "selReasonList": [
+                "The broadcast hint is missing during ResolveJoinStrategyHints."
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                1082399
+            ]
+        },
+        {
+            "questionId": 5,
+            "task": 1,
+            "caseName": "ssb-q1",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711264567789,
+            "endTime": 1711264734702,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "Seems no problem."
+            ],
+            "confidenceList": [
+                2
+            ],
+            "timeList": [
+                166913
+            ]
+        },
+        {
+            "questionId": 6,
+            "task": 1,
+            "caseName": "bug1-0",
+            "method": "qv",
+            "answerCount": 3,
+            "startTime": 1711264741704,
+            "endTime": 1711265843329,
+            "selectionList": [
+                1,
+                0,
+                2
+            ],
+            "selReasonList": [
+                "wrong analyzed plan is generated.",
+                "Seems right.",
+                "the optimized plan is wrong."
+            ],
+            "confidenceList": [
+                3,
+                3,
+                3
+            ],
+            "timeList": [
+                664271,
+                59447,
+                377907
+            ]
+        },
+        {
+            "questionId": 10,
+            "task": 1,
+            "caseName": "ssb-q11",
+            "method": "qvm",
+            "answerCount": 2,
+            "startTime": 1711265846371,
+            "endTime": 1711266373146,
+            "selectionList": [
+                1,
+                0
+            ],
+            "selReasonList": [
+                "There is only four inner joins.",
+                "seems right."
+            ],
+            "confidenceList": [
+                3,
+                2
+            ],
+            "timeList": [
+                129641,
+                397134
+            ]
+        },
+        {
+            "questionId": 14,
+            "task": 1,
+            "caseName": "bug0-0",
+            "method": "nm",
+            "answerCount": 4,
+            "startTime": 1711266376835,
+            "endTime": 1711267481283,
+            "selectionList": [
+                0,
+                2,
+                1,
+                3
+            ],
+            "selReasonList": [
+                "seems right",
+                "the op Project is generated wrong.",
+                "a wrong op Filter is added",
+                "there are duplicated steps."
+            ],
+            "confidenceList": [
+                1,
+                1,
+                1,
+                2
+            ],
+            "timeList": [
+                959524,
+                66794,
+                23673,
+                54457
+            ]
+        },
+        {
+            "questionId": 15,
+            "task": 1,
+            "caseName": "bug4-1",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711267482300,
+            "endTime": 1711267633156,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "no error discovered."
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                150856
+            ]
+        },
+        {
+            "questionId": 19,
+            "task": 2,
+            "caseName": "bug4-0",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711267634345,
+            "endTime": 1711267862646,
+            "selectionList": [
+                3
+            ],
+            "selReasonList": [
+                "the hint node is removed unexpectedly"
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                228301
+            ]
+        },
+        {
+            "questionId": 21,
+            "task": 2,
+            "caseName": "bug1-0",
+            "method": "qv",
+            "answerCount": 2,
+            "startTime": 1711267863508,
+            "endTime": 1711268248175,
+            "selectionList": [
+                0,
+                2
+            ],
+            "selReasonList": [
+                "from the chart",
+                "from the chart."
+            ],
+            "confidenceList": [
+                3,
+                5
+            ],
+            "timeList": [
+                364062,
+                20605
+            ]
+        },
+        {
+            "questionId": 26,
+            "task": 2,
+            "caseName": "bug0-0",
+            "method": "nm",
+            "answerCount": 4,
+            "startTime": 1711268248934,
+            "endTime": 1711268409159,
+            "selectionList": [
+                3,
+                2,
+                0,
+                1
+            ],
+            "selReasonList": [
+                "don't know",
+                "don't know",
+                "don't know",
+                "don't know"
+            ],
+            "confidenceList": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "timeList": [
+                138153,
+                8104,
+                7243,
+                6725
+            ]
+        }
+    ]
+}

@@ -1,0 +1,250 @@
+{
+    "person": {
+        "pid": 8,
+        "order": 7,
+        "name": "User 8",
+        "gender": "Male",
+        "age": 24,
+        "email": "user8@example.com",
+        "level": "Master",
+        "major": "Computer Science",
+        "familiarWithVIS": false,
+        "familiarWithDB": true,
+        "familiarWithQO": false
+    },
+    "answers": [
+        {
+            "questionId": 0,
+            "task": 1,
+            "caseName": "bug4-0",
+            "method": "qv",
+            "answerCount": 2,
+            "startTime": 1711263498930,
+            "endTime": 1711264423133,
+            "selectionList": [
+                0,
+                1
+            ],
+            "selReasonList": [
+                "I think there is no problem.",
+                "It missed the hint."
+            ],
+            "confidenceList": [
+                5,
+                5
+            ],
+            "timeList": [
+                806178,
+                118025
+            ]
+        },
+        {
+            "questionId": 5,
+            "task": 1,
+            "caseName": "ssb-q1",
+            "method": "nm",
+            "answerCount": 3,
+            "startTime": 1711264425812,
+            "endTime": 1711265129015,
+            "selectionList": [
+                1,
+                2,
+                0
+            ],
+            "selReasonList": [
+                " ",
+                " ",
+                " "
+            ],
+            "confidenceList": [
+                3,
+                2,
+                2
+            ],
+            "timeList": [
+                633368,
+                54122,
+                15708
+            ]
+        },
+        {
+            "questionId": 7,
+            "task": 1,
+            "caseName": "bug1-0",
+            "method": "qvm",
+            "answerCount": 3,
+            "startTime": 1711265130490,
+            "endTime": 1711266398390,
+            "selectionList": [
+                1,
+                1,
+                2
+            ],
+            "selReasonList": [
+                "The plan generate undefined value#7",
+                " ",
+                " "
+            ],
+            "confidenceList": [
+                3,
+                3,
+                4
+            ],
+            "timeList": [
+                782885,
+                464762,
+                20247
+            ]
+        },
+        {
+            "questionId": 9,
+            "task": 1,
+            "caseName": "ssb-q11",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711266399391,
+            "endTime": 1711266769945,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "no problem \uff01"
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                370554
+            ]
+        },
+        {
+            "questionId": 14,
+            "task": 1,
+            "caseName": "bug0-0",
+            "method": "nm",
+            "answerCount": 3,
+            "startTime": 1711266771110,
+            "endTime": 1711267455587,
+            "selectionList": [
+                0,
+                2,
+                3
+            ],
+            "selReasonList": [
+                " ",
+                "I guess",
+                "B has no problem, A, C is right"
+            ],
+            "confidenceList": [
+                4,
+                2,
+                3
+            ],
+            "timeList": [
+                567618,
+                33053,
+                83805
+            ]
+        },
+        {
+            "questionId": 16,
+            "task": 1,
+            "caseName": "bug4-1",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711267456817,
+            "endTime": 1711267607650,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "all right"
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                150833
+            ]
+        },
+        {
+            "questionId": 18,
+            "task": 2,
+            "caseName": "bug4-0",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711267609435,
+            "endTime": 1711267883316,
+            "selectionList": [
+                3
+            ],
+            "selReasonList": [
+                "it removed the hint"
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                273881
+            ]
+        },
+        {
+            "questionId": 22,
+            "task": 2,
+            "caseName": "bug1-0",
+            "method": "qvm",
+            "answerCount": 3,
+            "startTime": 1711267884354,
+            "endTime": 1711268245493,
+            "selectionList": [
+                3,
+                1,
+                2
+            ],
+            "selReasonList": [
+                "empty selection may not influence it",
+                " ",
+                " "
+            ],
+            "confidenceList": [
+                3,
+                2,
+                5
+            ],
+            "timeList": [
+                147271,
+                183346,
+                30513
+            ]
+        },
+        {
+            "questionId": 26,
+            "task": 2,
+            "caseName": "bug0-0",
+            "method": "nm",
+            "answerCount": 3,
+            "startTime": 1711268246514,
+            "endTime": 1711268445137,
+            "selectionList": [
+                2,
+                0,
+                1
+            ],
+            "selReasonList": [
+                "it does not push down",
+                "a useless filter",
+                "it removed later"
+            ],
+            "confidenceList": [
+                2,
+                4,
+                3
+            ],
+            "timeList": [
+                165504,
+                19347,
+                13765
+            ]
+        }
+    ]
+}

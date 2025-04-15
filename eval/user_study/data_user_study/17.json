@@ -1,0 +1,230 @@
+{
+    "person": {
+        "pid": 17,
+        "order": 16,
+        "name": "User 17",
+        "gender": "Male",
+        "age": 20,
+        "email": "user17@example.com",
+        "level": "Undergraduate",
+        "major": "subgraph search",
+        "familiarWithVIS": false,
+        "familiarWithDB": false,
+        "familiarWithQO": false
+    },
+    "answers": [
+        {
+            "questionId": 2,
+            "task": 1,
+            "caseName": "bug4-0",
+            "method": "nm",
+            "answerCount": 3,
+            "startTime": 1711263886091,
+            "endTime": 1711265153917,
+            "selectionList": [
+                3,
+                0,
+                1
+            ],
+            "selReasonList": [
+                "search \"=== App\", result of line 954 and line 1019 is same",
+                "the \"=== Result\" is correct and no work issue",
+                "find no node for hint"
+            ],
+            "confidenceList": [
+                2,
+                3,
+                3
+            ],
+            "timeList": [
+                993764,
+                137261,
+                136801
+            ]
+        },
+        {
+            "questionId": 3,
+            "task": 1,
+            "caseName": "ssb-q1",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711265155491,
+            "endTime": 1711265698255,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "the sum isn't change after analysis\nthe fliter all right after optimization\nno same struct in optimization phase"
+            ],
+            "confidenceList": [
+                4
+            ],
+            "timeList": [
+                542764
+            ]
+        },
+        {
+            "questionId": 7,
+            "task": 1,
+            "caseName": "bug1-0",
+            "method": "qvm",
+            "answerCount": 2,
+            "startTime": 1711265699656,
+            "endTime": 1711266245924,
+            "selectionList": [
+                3,
+                2
+            ],
+            "selReasonList": [
+                "after replace operator, two id#4 result many useless step",
+                "no clear to remain which one"
+            ],
+            "confidenceList": [
+                4,
+                2
+            ],
+            "timeList": [
+                390375,
+                155893
+            ]
+        },
+        {
+            "questionId": 11,
+            "task": 1,
+            "caseName": "ssb-q11",
+            "method": "nm",
+            "answerCount": 3,
+            "startTime": 1711266247670,
+            "endTime": 1711267219127,
+            "selectionList": [
+                3,
+                2,
+                0
+            ],
+            "selReasonList": [
+                "line 2068",
+                "line 2218",
+                "join 5 tables"
+            ],
+            "confidenceList": [
+                3,
+                3,
+                3
+            ],
+            "timeList": [
+                758361,
+                170791,
+                42305
+            ]
+        },
+        {
+            "questionId": 12,
+            "task": 1,
+            "caseName": "bug0-0",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711267220191,
+            "endTime": 1711267475139,
+            "selectionList": [
+                3
+            ],
+            "selReasonList": [
+                "after infer fliter, many steps not change any thing"
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                254948
+            ]
+        },
+        {
+            "questionId": 16,
+            "task": 1,
+            "caseName": "bug4-1",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711267476231,
+            "endTime": 1711267679831,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "find all steps in sys"
+            ],
+            "confidenceList": [
+                4
+            ],
+            "timeList": [
+                203600
+            ]
+        },
+        {
+            "questionId": 20,
+            "task": 2,
+            "caseName": "bug4-0",
+            "method": "nm",
+            "answerCount": 2,
+            "startTime": 1711267681212,
+            "endTime": 1711268090760,
+            "selectionList": [
+                2,
+                3
+            ],
+            "selReasonList": [
+                "maybe",
+                "no find boardcast in opt phase"
+            ],
+            "confidenceList": [
+                1,
+                3
+            ],
+            "timeList": [
+                266875,
+                142673
+            ]
+        },
+        {
+            "questionId": 22,
+            "task": 2,
+            "caseName": "bug1-0",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711268091975,
+            "endTime": 1711268212812,
+            "selectionList": [
+                2
+            ],
+            "selReasonList": [
+                "the order of agg and left is wrong"
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                120837
+            ]
+        },
+        {
+            "questionId": 24,
+            "task": 2,
+            "caseName": "bug0-0",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711268213927,
+            "endTime": 1711268327316,
+            "selectionList": [
+                1
+            ],
+            "selReasonList": [
+                "the project add one member and final del it"
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                113389
+            ]
+        }
+    ]
+}

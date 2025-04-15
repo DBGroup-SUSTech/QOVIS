@@ -1,0 +1,238 @@
+{
+    "person": {
+        "pid": 4,
+        "order": 3,
+        "name": "User 4",
+        "gender": "Male",
+        "age": 23,
+        "email": "user4@example.com",
+        "level": "Master",
+        "major": "Algorithm for Graph Database",
+        "familiarWithVIS": false,
+        "familiarWithDB": true,
+        "familiarWithQO": false
+    },
+    "answers": [
+        {
+            "questionId": 1,
+            "task": 1,
+            "caseName": "bug4-0",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711261100512,
+            "endTime": 1711264348276,
+            "selectionList": [
+                1
+            ],
+            "selReasonList": [
+                "\u611f\u89c9\u662f\u8fd9\u6837"
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                3247764
+            ]
+        },
+        {
+            "questionId": 5,
+            "task": 1,
+            "caseName": "ssb-q1",
+            "method": "nm",
+            "answerCount": 4,
+            "startTime": 1711264351236,
+            "endTime": 1711265200176,
+            "selectionList": [
+                3,
+                1,
+                2,
+                0
+            ],
+            "selReasonList": [
+                "\u6709\u5f88\u591a\u91cd\u590d\u7684log",
+                "\u8499\u4e00\u4e0b",
+                "\u8499\u4e00\u4e0b",
+                "\u6700\u540e\u4e00\u4e2a\u4e86"
+            ],
+            "confidenceList": [
+                2,
+                2,
+                2,
+                5
+            ],
+            "timeList": [
+                661923,
+                164446,
+                11058,
+                11512
+            ]
+        },
+        {
+            "questionId": 6,
+            "task": 1,
+            "caseName": "bug1-0",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711265201629,
+            "endTime": 1711265532014,
+            "selectionList": [
+                2
+            ],
+            "selReasonList": [
+                "\u611f\u89c9optimization\u9636\u6bb5\u5c11\u4e86\u6b65\u9aa4"
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                330385
+            ]
+        },
+        {
+            "questionId": 10,
+            "task": 1,
+            "caseName": "ssb-q11",
+            "method": "qvm",
+            "answerCount": 2,
+            "startTime": 1711265533330,
+            "endTime": 1711265966186,
+            "selectionList": [
+                3,
+                0
+            ],
+            "selReasonList": [
+                "\u611f\u89c9workflow\u6709\u70b9\u590d\u6742",
+                "\u5e94\u8be5\u6ca1\u5565\u95ee\u9898"
+            ],
+            "confidenceList": [
+                3,
+                3
+            ],
+            "timeList": [
+                413354,
+                19500
+            ]
+        },
+        {
+            "questionId": 14,
+            "task": 1,
+            "caseName": "bug0-0",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711265967157,
+            "endTime": 1711266263102,
+            "selectionList": [
+                3
+            ],
+            "selReasonList": [
+                "\u770b\u4e0d\u61c2log\uff0c\u968f\u4fbf\u8499\u4e00\u4e0b"
+            ],
+            "confidenceList": [
+                2
+            ],
+            "timeList": [
+                295945
+            ]
+        },
+        {
+            "questionId": 15,
+            "task": 1,
+            "caseName": "bug4-1",
+            "method": "qv",
+            "answerCount": 3,
+            "startTime": 1711266264572,
+            "endTime": 1711266430488,
+            "selectionList": [
+                1,
+                2,
+                0
+            ],
+            "selReasonList": [
+                "\u611f\u89c9analysis\u90e8\u5206\u5de6\u4fa7\u7684\u5206\u652f\u591a\u4e86\u4e00\u4e9b\u5197\u4f59\u7684\u90e8\u5206",
+                "\u611f\u89c9\u5728optimization\u90e8\u5206\u6bd4\u4e0a\u4e00\u4e2a\u9636\u6bb5\u5c11\u4e86\u4e00\u4e9b\u8282\u70b9",
+                "\u90a3\u4e00\u5b9a\u662f\u8fd9\u4e2a"
+            ],
+            "confidenceList": [
+                4,
+                5,
+                5
+            ],
+            "timeList": [
+                106282,
+                46427,
+                13206
+            ]
+        },
+        {
+            "questionId": 19,
+            "task": 2,
+            "caseName": "bug4-0",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711266431366,
+            "endTime": 1711266702301,
+            "selectionList": [
+                3
+            ],
+            "selReasonList": [
+                "analysis\u90e8\u5206\u597d\u50cf\u6709\u4e00\u4e9b\u8282\u70b9\u662f\u91cd\u590d\u7684"
+            ],
+            "confidenceList": [
+                4
+            ],
+            "timeList": [
+                270935
+            ]
+        },
+        {
+            "questionId": 21,
+            "task": 2,
+            "caseName": "bug1-0",
+            "method": "qv",
+            "answerCount": 2,
+            "startTime": 1711266703585,
+            "endTime": 1711267070246,
+            "selectionList": [
+                3,
+                2
+            ],
+            "selReasonList": [
+                "\u611f\u89c9optimizer\u6ca1\u95ee\u9898",
+                "\u5f00\u8499"
+            ],
+            "confidenceList": [
+                3,
+                3
+            ],
+            "timeList": [
+                359022,
+                7637
+            ]
+        },
+        {
+            "questionId": 26,
+            "task": 2,
+            "caseName": "bug0-0",
+            "method": "nm",
+            "answerCount": 2,
+            "startTime": 1711267071514,
+            "endTime": 1711267150637,
+            "selectionList": [
+                0,
+                1
+            ],
+            "selReasonList": [
+                "\u770b\u4e0d\u61c2log\uff0c\u5f00\u8499",
+                "\u5361\u4e0d\u61c2log\uff0c\u5f00\u8499"
+            ],
+            "confidenceList": [
+                1,
+                1
+            ],
+            "timeList": [
+                67672,
+                11449
+            ]
+        }
+    ]
+}

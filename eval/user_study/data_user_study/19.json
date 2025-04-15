@@ -1,0 +1,226 @@
+{
+    "person": {
+        "pid": 19,
+        "order": 18,
+        "name": "User 19",
+        "gender": "Male",
+        "age": 24,
+        "email": "user19@example.com",
+        "level": "Ph.D.",
+        "major": "similarity search in high dimensionality",
+        "familiarWithVIS": false,
+        "familiarWithDB": true,
+        "familiarWithQO": false
+    },
+    "answers": [
+        {
+            "questionId": 0,
+            "task": 1,
+            "caseName": "bug4-0",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711264055740,
+            "endTime": 1711264512488,
+            "selectionList": [
+                1
+            ],
+            "selReasonList": [
+                "There is a unresolved hint before the analysis. \nBut after the analysis, I could not see the resolved hint. "
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                456748
+            ]
+        },
+        {
+            "questionId": 4,
+            "task": 1,
+            "caseName": "ssb-q1",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711264522312,
+            "endTime": 1711265120732,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "For D, I could not see the redundant plan in Optimization phase.\nFor C, the filtering stage is true of the where clause.\nFor B, the aggregation function is not changed in the Optimization phase"
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                598420
+            ]
+        },
+        {
+            "questionId": 8,
+            "task": 1,
+            "caseName": "bug1-0",
+            "method": "nm",
+            "answerCount": 2,
+            "startTime": 1711265122115,
+            "endTime": 1711266103999,
+            "selectionList": [
+                0,
+                2
+            ],
+            "selReasonList": [
+                "Analyzing directly from the log is very hard to me. I could not find any effective information from the log.",
+                "I could not understand"
+            ],
+            "confidenceList": [
+                1,
+                1
+            ],
+            "timeList": [
+                728379,
+                253505
+            ]
+        },
+        {
+            "questionId": 9,
+            "task": 1,
+            "caseName": "ssb-q11",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711266106630,
+            "endTime": 1711266454320,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "For D, I could not find the reorder join at the start of the optimization phase.\nFor B, there is 4 inner join operation, so it must have joined 5 tables.\nFor C, Actually I could not find the which inner join has this condition"
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                347690
+            ]
+        },
+        {
+            "questionId": 13,
+            "task": 1,
+            "caseName": "bug0-0",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711266455494,
+            "endTime": 1711266700065,
+            "selectionList": [
+                3
+            ],
+            "selReasonList": [
+                "For D, the redundant has multiple \"Operator optimiziation before inferring filters\" in the Optimzation phase"
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                244571
+            ]
+        },
+        {
+            "questionId": 17,
+            "task": 1,
+            "caseName": "bug4-1",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711266701152,
+            "endTime": 1711266720456,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "It is so hard, I could not understand"
+            ],
+            "confidenceList": [
+                1
+            ],
+            "timeList": [
+                19304
+            ]
+        },
+        {
+            "questionId": 18,
+            "task": 2,
+            "caseName": "bug4-0",
+            "method": "qv",
+            "answerCount": 2,
+            "startTime": 1711266724208,
+            "endTime": 1711267087751,
+            "selectionList": [
+                0,
+                3
+            ],
+            "selReasonList": [
+                "In the Optimization phase, RewriteSubquery step, the tree structure only changed the filter to left semi join, which is not equivalent.",
+                "THe broadcast table is t, not s."
+            ],
+            "confidenceList": [
+                5,
+                3
+            ],
+            "timeList": [
+                160258,
+                203285
+            ]
+        },
+        {
+            "questionId": 23,
+            "task": 2,
+            "caseName": "bug1-0",
+            "method": "nm",
+            "answerCount": 3,
+            "startTime": 1711267088801,
+            "endTime": 1711267140593,
+            "selectionList": [
+                0,
+                1,
+                2
+            ],
+            "selReasonList": [
+                "It is too hard, I could not understand.",
+                "It is too hard, I could not understand.",
+                "It is too hard, I could not understand."
+            ],
+            "confidenceList": [
+                1,
+                1,
+                1
+            ],
+            "timeList": [
+                38822,
+                7168,
+                5799
+            ]
+        },
+        {
+            "questionId": 25,
+            "task": 2,
+            "caseName": "bug0-0",
+            "method": "qvm",
+            "answerCount": 2,
+            "startTime": 1711267142006,
+            "endTime": 1711267648949,
+            "selectionList": [
+                0,
+                1
+            ],
+            "selReasonList": [
+                "For A, it insert a isnotnull(id#18) in the Filter operator, and after that it has to optimize multiple times.",
+                "ColumnPruning step add a Project, while other \"PushDownxxx\" and \"Removexxx\" removes something. "
+            ],
+            "confidenceList": [
+                5,
+                3
+            ],
+            "timeList": [
+                175809,
+                331134
+            ]
+        }
+    ]
+}

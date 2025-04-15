@@ -1,0 +1,262 @@
+{
+    "person": {
+        "pid": 12,
+        "order": 11,
+        "name": "User 12",
+        "gender": "Male",
+        "age": 27,
+        "email": "user12@example.com",
+        "level": "Ph.D.",
+        "major": "Vector Similarity Search",
+        "familiarWithVIS": false,
+        "familiarWithDB": true,
+        "familiarWithQO": true
+    },
+    "answers": [
+        {
+            "questionId": 2,
+            "task": 1,
+            "caseName": "bug4-0",
+            "method": "nm",
+            "answerCount": 3,
+            "startTime": 1711263789134,
+            "endTime": 1711265286584,
+            "selectionList": [
+                2,
+                3,
+                1
+            ],
+            "selReasonList": [
+                "Didn't find the converting from EXISTS to LEFT SEMI JOIN",
+                "Didn't find the remove Project node operation in log",
+                "the executor broadcasts another table s"
+            ],
+            "confidenceList": [
+                5,
+                3,
+                3
+            ],
+            "timeList": [
+                1024447,
+                174933,
+                298070
+            ]
+        },
+        {
+            "questionId": 4,
+            "task": 1,
+            "caseName": "ssb-q1",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711265287817,
+            "endTime": 1711265725194,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "no issue detected"
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                437377
+            ]
+        },
+        {
+            "questionId": 6,
+            "task": 1,
+            "caseName": "bug1-0",
+            "method": "qv",
+            "answerCount": 4,
+            "startTime": 1711265726451,
+            "endTime": 1711266415552,
+            "selectionList": [
+                3,
+                0,
+                1,
+                2
+            ],
+            "selReasonList": [
+                "DeduplicateRelations changed nothing",
+                "no issues found",
+                "wrong analyzed plan",
+                "wrong optimized plan"
+            ],
+            "confidenceList": [
+                3,
+                3,
+                1,
+                1
+            ],
+            "timeList": [
+                344523,
+                317251,
+                13561,
+                13766
+            ]
+        },
+        {
+            "questionId": 11,
+            "task": 1,
+            "caseName": "ssb-q11",
+            "method": "nm",
+            "answerCount": 3,
+            "startTime": 1711266416390,
+            "endTime": 1711266758625,
+            "selectionList": [
+                1,
+                2,
+                0
+            ],
+            "selReasonList": [
+                "only four joins found",
+                "Inner Join condition on optimized plan is wrong",
+                "no issues detected"
+            ],
+            "confidenceList": [
+                3,
+                3,
+                3
+            ],
+            "timeList": [
+                165830,
+                162953,
+                13452
+            ]
+        },
+        {
+            "questionId": 13,
+            "task": 1,
+            "caseName": "bug0-0",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711266759447,
+            "endTime": 1711266940396,
+            "selectionList": [
+                3
+            ],
+            "selReasonList": [
+                "some of optimization steps repeats"
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                180949
+            ]
+        },
+        {
+            "questionId": 15,
+            "task": 1,
+            "caseName": "bug4-1",
+            "method": "qv",
+            "answerCount": 4,
+            "startTime": 1711266941326,
+            "endTime": 1711267135322,
+            "selectionList": [
+                1,
+                2,
+                3,
+                0
+            ],
+            "selReasonList": [
+                "broadcast hint is missing",
+                "optimized plan is wrong",
+                "hint is not set to Inner Join",
+                "no issues found"
+            ],
+            "confidenceList": [
+                5,
+                3,
+                5,
+                5
+            ],
+            "timeList": [
+                90006,
+                52779,
+                41211,
+                9998
+            ]
+        },
+        {
+            "questionId": 20,
+            "task": 2,
+            "caseName": "bug4-0",
+            "method": "nm",
+            "answerCount": 2,
+            "startTime": 1711267136301,
+            "endTime": 1711267332628,
+            "selectionList": [
+                2,
+                3
+            ],
+            "selReasonList": [
+                "BuildLeft requirement is not ensured",
+                "the executor chooses to broadcast table s"
+            ],
+            "confidenceList": [
+                3,
+                1
+            ],
+            "timeList": [
+                145219,
+                51108
+            ]
+        },
+        {
+            "questionId": 21,
+            "task": 2,
+            "caseName": "bug1-0",
+            "method": "qv",
+            "answerCount": 3,
+            "startTime": 1711267333253,
+            "endTime": 1711267554769,
+            "selectionList": [
+                0,
+                1,
+                2
+            ],
+            "selReasonList": [
+                "join condition is wrong",
+                "join condition is wrong after inferfiltersfromconstraints step",
+                "PushdownLeftSemiAntiJoin step wrong"
+            ],
+            "confidenceList": [
+                1,
+                1,
+                1
+            ],
+            "timeList": [
+                122717,
+                78014,
+                20785
+            ]
+        },
+        {
+            "questionId": 25,
+            "task": 2,
+            "caseName": "bug0-0",
+            "method": "qvm",
+            "answerCount": 2,
+            "startTime": 1711267555843,
+            "endTime": 1711267686549,
+            "selectionList": [
+                0,
+                1
+            ],
+            "selReasonList": [
+                "the optimizer starts to optimize repeatedly",
+                "there is a loop after inner filters"
+            ],
+            "confidenceList": [
+                1,
+                5
+            ],
+            "timeList": [
+                78573,
+                52133
+            ]
+        }
+    ]
+}

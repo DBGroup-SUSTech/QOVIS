@@ -1,0 +1,238 @@
+{
+    "person": {
+        "pid": 5,
+        "order": 4,
+        "name": "User 5",
+        "gender": "Male",
+        "age": 25,
+        "email": "user5@example.com",
+        "level": "Ph.D.",
+        "major": "DB/OS co-design",
+        "familiarWithVIS": false,
+        "familiarWithDB": true,
+        "familiarWithQO": false
+    },
+    "answers": [
+        {
+            "questionId": 2,
+            "task": 1,
+            "caseName": "bug4-0",
+            "method": "nm",
+            "answerCount": 2,
+            "startTime": 1711263137161,
+            "endTime": 1711264271789,
+            "selectionList": [
+                0,
+                1
+            ],
+            "selReasonList": [
+                "The optimized plan looks fine.",
+                "The above two lines:\n+- BroadcastExchange HashedRelationBroadcastMode(List(cast(input[0, int, false] as bigint)),false), [id=#18]\n+- LocalTableScan [s_col#10] "
+            ],
+            "confidenceList": [
+                3,
+                4
+            ],
+            "timeList": [
+                900605,
+                234023
+            ]
+        },
+        {
+            "questionId": 3,
+            "task": 1,
+            "caseName": "ssb-q1",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711264273434,
+            "endTime": 1711264461650,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "The plan looks fine."
+            ],
+            "confidenceList": [
+                4
+            ],
+            "timeList": [
+                188216
+            ]
+        },
+        {
+            "questionId": 7,
+            "task": 1,
+            "caseName": "bug1-0",
+            "method": "qvm",
+            "answerCount": 3,
+            "startTime": 1711264462785,
+            "endTime": 1711265117625,
+            "selectionList": [
+                0,
+                3,
+                2
+            ],
+            "selReasonList": [
+                "The plan looks fine",
+                "id#4 appears multiple times",
+                "The delay of making alias (#id4+1) as #id6"
+            ],
+            "confidenceList": [
+                3,
+                4,
+                4
+            ],
+            "timeList": [
+                236692,
+                236462,
+                181686
+            ]
+        },
+        {
+            "questionId": 11,
+            "task": 1,
+            "caseName": "ssb-q11",
+            "method": "nm",
+            "answerCount": 2,
+            "startTime": 1711265118504,
+            "endTime": 1711265759868,
+            "selectionList": [
+                1,
+                0
+            ],
+            "selReasonList": [
+                "The # of found relations is less than 5.",
+                "Its too hard to find a problem."
+            ],
+            "confidenceList": [
+                3,
+                3
+            ],
+            "timeList": [
+                481089,
+                160275
+            ]
+        },
+        {
+            "questionId": 12,
+            "task": 1,
+            "caseName": "bug0-0",
+            "method": "qv",
+            "answerCount": 2,
+            "startTime": 1711265766171,
+            "endTime": 1711266220497,
+            "selectionList": [
+                1,
+                3
+            ],
+            "selReasonList": [
+                "wrong filter operator is added",
+                "Repeated plans"
+            ],
+            "confidenceList": [
+                4,
+                5
+            ],
+            "timeList": [
+                397374,
+                56949
+            ]
+        },
+        {
+            "questionId": 16,
+            "task": 1,
+            "caseName": "bug4-1",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711266222067,
+            "endTime": 1711266397359,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "Looks fine"
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                175292
+            ]
+        },
+        {
+            "questionId": 20,
+            "task": 2,
+            "caseName": "bug4-0",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711266399682,
+            "endTime": 1711266563613,
+            "selectionList": [
+                3
+            ],
+            "selReasonList": [
+                "These two lines\n+- BroadcastExchange HashedRelationBroadcastMode(List(cast(input[0, int, false] as bigint)),false), [id=#18]                                                              \n    +- LocalTableScan [s_col#10]"
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                163931
+            ]
+        },
+        {
+            "questionId": 22,
+            "task": 2,
+            "caseName": "bug1-0",
+            "method": "qvm",
+            "answerCount": 2,
+            "startTime": 1711266565134,
+            "endTime": 1711266897845,
+            "selectionList": [
+                0,
+                2
+            ],
+            "selReasonList": [
+                "id#4+1=id#4",
+                "I saw the wrong answer. The first choice is this."
+            ],
+            "confidenceList": [
+                5,
+                5
+            ],
+            "timeList": [
+                294858,
+                37853
+            ]
+        },
+        {
+            "questionId": 24,
+            "task": 2,
+            "caseName": "bug0-0",
+            "method": "qv",
+            "answerCount": 3,
+            "startTime": 1711266898813,
+            "endTime": 1711267117263,
+            "selectionList": [
+                0,
+                2,
+                1
+            ],
+            "selReasonList": [
+                "Repeated steps happens there.",
+                "Repeatation happens there",
+                "The loop happens there"
+            ],
+            "confidenceList": [
+                5,
+                5,
+                5
+            ],
+            "timeList": [
+                108519,
+                47573,
+                62358
+            ]
+        }
+    ]
+}

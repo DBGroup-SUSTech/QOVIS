@@ -1,0 +1,214 @@
+{
+    "person": {
+        "pid": 3,
+        "order": 2,
+        "name": "User 3",
+        "gender": "Male",
+        "age": 25,
+        "email": "user3@example.com",
+        "level": "Master",
+        "major": "cs",
+        "familiarWithVIS": true,
+        "familiarWithDB": true,
+        "familiarWithQO": false
+    },
+    "answers": [
+        {
+            "questionId": 2,
+            "task": 1,
+            "caseName": "bug4-0",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711205990037,
+            "endTime": 1711206667925,
+            "selectionList": [
+                1
+            ],
+            "selReasonList": [
+                "No briadcast hint found during the plan transformation process"
+            ],
+            "confidenceList": [
+                2
+            ],
+            "timeList": [
+                677888
+            ]
+        },
+        {
+            "questionId": 3,
+            "task": 1,
+            "caseName": "ssb-q1",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711205681206,
+            "endTime": 1711205988664,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "plan is expected"
+            ],
+            "confidenceList": [
+                4
+            ],
+            "timeList": [
+                307458
+            ]
+        },
+        {
+            "questionId": 6,
+            "task": 1,
+            "caseName": "bug1-0",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711207030885,
+            "endTime": 1711207421641,
+            "selectionList": [
+                2
+            ],
+            "selReasonList": [
+                "The plan logic is changed after opmized "
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                390756
+            ]
+        },
+        {
+            "questionId": 10,
+            "task": 1,
+            "caseName": "ssb-q11",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711206669998,
+            "endTime": 1711207029216,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "plan optimazed process is expected"
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                359218
+            ]
+        },
+        {
+            "questionId": 13,
+            "task": 1,
+            "caseName": "bug0-0",
+            "method": "qvm",
+            "answerCount": 2,
+            "startTime": 1711204785573,
+            "endTime": 1711205678650,
+            "selectionList": [
+                1,
+                3
+            ],
+            "selReasonList": [
+                "the duplicate filter of \"isnotnull\" ",
+                "the same struct with multiuple times"
+            ],
+            "confidenceList": [
+                4,
+                3
+            ],
+            "timeList": [
+                510114,
+                382963
+            ]
+        },
+        {
+            "questionId": 17,
+            "task": 1,
+            "caseName": "bug4-1",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711207422726,
+            "endTime": 1711207647857,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "the plan optmizing process is expected"
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                225131
+            ]
+        },
+        {
+            "questionId": 20,
+            "task": 2,
+            "caseName": "bug4-0",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711208130846,
+            "endTime": 1711208260639,
+            "selectionList": [
+                3
+            ],
+            "selReasonList": [
+                "The broadcast node is missing in the second step in Analysis phase "
+            ],
+            "confidenceList": [
+                3
+            ],
+            "timeList": [
+                128284
+            ]
+        },
+        {
+            "questionId": 21,
+            "task": 2,
+            "caseName": "bug1-0",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711208262634,
+            "endTime": 1711208425513,
+            "selectionList": [
+                2
+            ],
+            "selReasonList": [
+                "the predicate in the leftAntiJoin operator after PushDownLeftSemiAntiJoin is different from that before  "
+            ],
+            "confidenceList": [
+                4
+            ],
+            "timeList": [
+                162879
+            ]
+        },
+        {
+            "questionId": 25,
+            "task": 2,
+            "caseName": "bug0-0",
+            "method": "qvm",
+            "answerCount": 2,
+            "startTime": 1711207649038,
+            "endTime": 1711208129793,
+            "selectionList": [
+                2,
+                1
+            ],
+            "selReasonList": [
+                "From the query optimization visualization of QOVIS, the leftAntiJoin opertaor is not pushed after PushDownLeftSemiAntiJoin step",
+                "The Project are added and be removed from QOVIS"
+            ],
+            "confidenceList": [
+                5,
+                3
+            ],
+            "timeList": [
+                290219,
+                190536
+            ]
+        }
+    ]
+}

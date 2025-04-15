@@ -1,0 +1,214 @@
+{
+    "person": {
+        "pid": 9,
+        "order": 8,
+        "name": "User 9",
+        "gender": "Male",
+        "age": 20,
+        "email": "user9@example.com",
+        "level": "Undergraduate",
+        "major": "Vector Database",
+        "familiarWithVIS": false,
+        "familiarWithDB": true,
+        "familiarWithQO": true
+    },
+    "answers": [
+        {
+            "questionId": 1,
+            "task": 1,
+            "caseName": "bug4-0",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711263805192,
+            "endTime": 1711264153058,
+            "selectionList": [
+                1
+            ],
+            "selReasonList": [
+                "Unresolved broadcast."
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                347866
+            ]
+        },
+        {
+            "questionId": 3,
+            "task": 1,
+            "caseName": "ssb-q1",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711264154422,
+            "endTime": 1711264526649,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "No optimization issue detected."
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                372227
+            ]
+        },
+        {
+            "questionId": 8,
+            "task": 1,
+            "caseName": "bug1-0",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711264528609,
+            "endTime": 1711265236673,
+            "selectionList": [
+                2
+            ],
+            "selReasonList": [
+                "Aggregate mistakenly occurs."
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                708064
+            ]
+        },
+        {
+            "questionId": 10,
+            "task": 1,
+            "caseName": "ssb-q11",
+            "method": "qvm",
+            "answerCount": 1,
+            "startTime": 1711265237760,
+            "endTime": 1711265554804,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "No problem."
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                317044
+            ]
+        },
+        {
+            "questionId": 12,
+            "task": 1,
+            "caseName": "bug0-0",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711265555815,
+            "endTime": 1711265789588,
+            "selectionList": [
+                3
+            ],
+            "selReasonList": [
+                "100 times same action."
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                233773
+            ]
+        },
+        {
+            "questionId": 17,
+            "task": 1,
+            "caseName": "bug4-1",
+            "method": "nm",
+            "answerCount": 1,
+            "startTime": 1711265790534,
+            "endTime": 1711266089825,
+            "selectionList": [
+                0
+            ],
+            "selReasonList": [
+                "No problem."
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                299291
+            ]
+        },
+        {
+            "questionId": 19,
+            "task": 2,
+            "caseName": "bug4-0",
+            "method": "qvm",
+            "answerCount": 2,
+            "startTime": 1711266090946,
+            "endTime": 1711266493890,
+            "selectionList": [
+                0,
+                3
+            ],
+            "selReasonList": [
+                "Broadcast has been removed at the beginning.",
+                "In this node, ResolvedHint has been removed improperly."
+            ],
+            "confidenceList": [
+                5,
+                5
+            ],
+            "timeList": [
+                132573,
+                270371
+            ]
+        },
+        {
+            "questionId": 23,
+            "task": 2,
+            "caseName": "bug1-0",
+            "method": "nm",
+            "answerCount": 2,
+            "startTime": 1711266494960,
+            "endTime": 1711266924699,
+            "selectionList": [
+                1,
+                2
+            ],
+            "selReasonList": [
+                "Aggregate has been moved to the top of the tree.",
+                "Aggregate has been moved to the top of the tree."
+            ],
+            "confidenceList": [
+                5,
+                5
+            ],
+            "timeList": [
+                374046,
+                55693
+            ]
+        },
+        {
+            "questionId": 24,
+            "task": 2,
+            "caseName": "bug0-0",
+            "method": "qv",
+            "answerCount": 1,
+            "startTime": 1711266925968,
+            "endTime": 1711267366356,
+            "selectionList": [
+                1
+            ],
+            "selReasonList": [
+                "Projects that generated by ColumnPurning are later removed and regenerated."
+            ],
+            "confidenceList": [
+                5
+            ],
+            "timeList": [
+                440388
+            ]
+        }
+    ]
+}
